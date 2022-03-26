@@ -1,0 +1,191 @@
+/* Add here all your CSS customizations */
+
+
+.indent-1 {
+    text-indent: 1em;
+}
+.indent-2 {
+    text-indent: 1em;
+}
+
+.feature-box-png img {
+    width: 90px;
+    float: left;
+    margin-right: 10px;
+}
+
+.feature-box-info h4 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+.feature-box-info p {
+    font-size: 36px;
+    line-height: 1em;
+    color: #8e8e8e;
+    font-weight: bold;
+}
+.feature-box .feature-box-info {
+    padding-left: 50px;
+    padding-top: 13px;
+}
+
+.net-feature {
+    margin-top: 50px;
+}
+
+
+.titleContainer {
+
+}
+.logoSide {
+
+}
+.logoSide img {
+    height: 75px;
+    margin-right: 3px;
+}
+
+
+.contentSide {
+
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 22px;
+}
+.contentSide p {
+    min-height: 120px;
+}
+
+
+.referenceItem {
+
+}
+
+.referenceItem img {
+    padding: 13px 18px;
+}
+
+
+
+
+html section.section-primary.eBA {
+    background-color: #f7a700 !important;
+    border-color: #f7a700 !important;
+}
+
+
+.eBADescription {
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+}
+
+
+@media (max-width: 1200px){
+    .eBADescription {
+        font-size: 27px;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 992px){
+    .contentSide p {
+        min-height: 120px;
+    }
+}
+@media (max-width: 768px){
+    .contentSide p {
+        min-height: initial;
+    }
+
+    .eBADescription {
+        text-align: center;
+    }
+    #eBA2 {
+        text-align: center;
+    }
+
+
+}
+
+
+.t-shadow {
+    text-shadow: 0px 0px 7px #000 !important;
+    padding: 0 11px !important;
+}
+
+
+
+
+.eba .fa {
+    border: 1px solid #f7a700;
+    color: #f7a700;
+    border-radius: 51%;
+    padding: 15px;
+    margin-right: 10px;
+    width: 56px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.eba .row {
+    padding-top: 10px;
+}
+
+
+.eBaIcon {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+
+
+
+#eBA2 .urlTitle:hover {
+    color: #f9dab6;
+}
+
+#eBA2 .urlTitle i{
+    /*display: none;*/
+    font-size: 22px;
+}
+
+/*#eBA2 .urlTitle:hover > i{
+    display: inline-block;
+}*/
+
+#eBA2 .urlTitle strong{
+    line-height:1.1em;
+}
+
+
+
+#SapSolutions {
+    position: relative;
+    top: -27px;
+
+}
+
+
+.imgContainer {
+    width: 42%;
+    margin: 0 auto;
+}
+
+.FeaturesDifferentiators p {
+    margin-top: -12px;
+    line-height: 1.3em;
+}
+
+@media only screen and (max-width: 800px)  {
+  /*  .top-label {
+        font-size: 10px !important;
+        line-height:30px;
+        margin-top: 10px;
+        margin-left: 20px;
+
+    }*/
+}
